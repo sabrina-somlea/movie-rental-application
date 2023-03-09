@@ -1,0 +1,15 @@
+
+r
+java:S1488%"\Immediately return this expression instead of assigning it to the temporary variable "dtos".(Ù…’
+N
+java:S1854"8Remove this useless assignment to local variable "dtos".(Ù…’
+?
+java:S1481")Remove this unused "dtos" local variable.(Ù…’
+`
+java:S4488)"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(ÁíÖ‹
+c
+java:S44880"HReplace "@RequestMapping(method = RequestMethod.PUT)" with "@PutMapping"(¢¹€éùÿÿÿÿ
+A
+java:S14529"&Remove usage of generic wildcard type.(³ß·ûÿÿÿÿ
+d
+java:S44888"NReplace "@RequestMapping(method = RequestMethod.DELETE)" with "@DeleteMapping"(§©Ïå

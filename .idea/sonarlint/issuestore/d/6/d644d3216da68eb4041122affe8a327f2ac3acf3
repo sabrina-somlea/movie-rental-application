@@ -1,0 +1,11 @@
+
+Z
+java:S1610"=Convert the abstract class "BaseConverter" into an interface.(”ÉÑÅ8ðž÷Çá0
+e	java:S119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(”ÉÑÅ8øž÷Çá0
+e	java:S119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(”ÉÑÅ8üž÷Çá0
+[
+java:S1612">Replace this lambda with method reference 'BaseEntity::getId'.(ÁÎ¿´8”Ÿ÷Çá0
+X
+java:S1612";Replace this lambda with method reference 'BaseDto::getId'.(ÿ¥×Ñ8œŸ÷Çá0
+p
+java:S1612"NReplace this lambda with method reference 'Converter.this::convertModelToDto'.(—‘î±úÿÿÿÿ8®Ÿ÷Çá0
