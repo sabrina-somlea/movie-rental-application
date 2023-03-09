@@ -1,0 +1,29 @@
+<br>
+<br>
+<h4>Add new date</h4>
+<div>
+  <label> Quarter: <input #quarterInput type="text"></label><br>
+  <label> Year: <input #yearInput type="text"></label><br>
+  <label> Month: <input #monthInput type="text"></label><br>
+  <label> Day: <input #dayInput type="text"></label><br>
+
+</div>
+<div>
+  <button (click)="onSave(quarterInput.value, yearInput.value, monthInput.value, dayInput.value)">Save</button>
+</div>
+
+<br>
+<br>
+
+<div>
+  <h4>Update movie date</h4>
+  <label> ID: <input #idInputUpdate type="text"></label><br>
+  <label> Quarter: <input #quarterInputUpdate type="text"></label><br>
+  <label> Year: <input #yearInputUpdate type="text"></label><br>
+  <label> Month: <input #monthInputUpdate type="text"></label><br>
+  <label> Day: <input #dayInputUpdate type="text"></label><br>
+
+</div>
+<div>
+  <button (click)="onUpdate(idInputUpdate.value, quarterInputUpdate.value, yearInputUpdate.value, monthInputUpdate.value, dayInputUpdate.value)">Update</button>
+</div>

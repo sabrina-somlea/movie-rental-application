@@ -1,0 +1,32 @@
+
+<br>
+<br>
+<h4>Add new movie</h4>
+<div>
+  <label> Title: <input #titleInput type="text"></label><br>
+  <label> Release Year: <input #releaseYearInput type="text"></label><br>
+  <label> Language: <input #languageInput type="text"></label><br>
+  <label> Rating: <input #ratingInput type="text"></label><br>
+  <label> Rental Price: <input #rentalPriceInput type="text"></label><br>
+
+</div>
+<div>
+  <button (click)="onSave(titleInput.value, releaseYearInput.value, languageInput.value, ratingInput.value, rentalPriceInput.value )">Save</button>
+</div>
+
+<br>
+<br>
+
+<div>
+  <h4>Update movie</h4>
+  <label> ID: <input #idInputUpdate type="text"></label><br>
+  <label> Title: <input #titleInputUpdate type="text"></label><br>
+  <label> Release Year: <input #releaseYearInputUpdate type="text"></label><br>
+  <label> Language: <input #languageInputUpdate type="text"></label><br>
+  <label> Rating: <input #ratingInputUpdate type="text"></label><br>
+  <label> Rental Price: <input #rentalPriceInputUpdate type="text"></label><br>
+
+</div>
+<div>
+  <button (click)="onUpdate(idInputUpdate.value, titleInputUpdate.value, releaseYearInputUpdate.value, languageInputUpdate.value, ratingInputUpdate.value, rentalPriceInputUpdate.value )">Update</button>
+</div>

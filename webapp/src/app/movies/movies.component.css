@@ -1,0 +1,10 @@
+button {
+  position: absolute;
+  background-color:#7B68EE;
+  color: #fff;
+  border:none;
+  border-radius:10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 6px 10px;
+  font-size: 12px;
+}

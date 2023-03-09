@@ -1,0 +1,19 @@
+<br>
+<br>
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Quarter</th>
+    <th>Year</th>
+    <th>Month</th>
+    <th>Day</th>
+  </tr>
+  <tr *ngFor="let date of dates">
+    <th>{{date.id}}</th>
+    <th>{{date.quarter}}</th>
+    <th>{{date.year}}</th>
+    <th>{{date.month}}</th>
+    <th>{{date.day}}</th>
+    <button (click)="onDelete(date)">Delete</button>
+  </tr>
+</table>

@@ -1,0 +1,11 @@
+<div>
+  <br>
+  <label>Name: <input #nameInput type="text"></label><br>
+  <label>Year of birth: <input #yearInput type="text"></label><br>
+  <label>Email: <input #emailInput type="email"></label><br>
+  <label>Phone Number: <input #phoneInput type="text"></label><br>
+
+  <br>
+
+  <button (click)="onSave(nameInput.value,yearInput.value,emailInput.value,phoneInput.value)">Save</button>
+</div>

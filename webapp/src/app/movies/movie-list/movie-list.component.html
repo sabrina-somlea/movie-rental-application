@@ -1,0 +1,24 @@
+<br>
+<br>
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Release Year</th>
+    <th>Language</th>
+    <th>Rating</th>
+    <th>Rental Price</th>
+  </tr>
+  <tr *ngFor="let movie of movies">
+    <td >{{movie.id}}</td>
+    <td>{{movie.title}}</td>
+    <td>{{movie.releaseYear}}</td>
+    <td>{{movie.language}}</td>
+    <td>{{movie.rating}}</td>
+    <td>{{movie.rentalPrice}}</td>
+    <button (click)="onDelete(movie)">Delete</button>
+  </tr>
+  <tr>
+</table>
+
+
